@@ -282,4 +282,5 @@ Host 会在北京时间零点主动刷新一次余额作为新一天的基准。
 
 ## 许可证
 
-插件代码 MIT。素材与 vendored 代码的授权情况见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) —— **特别注意：naiwa 原始素材没有明确许可证，公开分发前必须取得作者许可或替换素材。**
+插件代码 MIT。素材与 vendored 代码的授权情况见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
+本仓库所有者已确认有权公开随包发布的 naiwa 素材；如果你要再分发，请先阅读该说明并自行确认授权范围。
