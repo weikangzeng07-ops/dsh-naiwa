@@ -1,0 +1,19 @@
+# ============================================================================
+# dsh-naiwa —— 奶蛙桌宠 DSH bundle patch
+# ============================================================================
+# 这是插件的"挂载声明"。DSH 启动时按 bundle 层栈叠加各插件 patch，
+# 本文件把奶蛙桌宠插件插入 Web profile 的配置树。
+#
+# 安装方式：
+#   dsh plugin --profile web add dsh-naiwa
+# 或本地目录安装（Plugin Manager install_bundle / link:）：
+#   dsh plugin --profile web add link:<本目录绝对路径>
+#
+# ⚠️ 本插件与 dsh-whale-widget 完全独立：不占用它的 id、路由、CSS 前缀、
+#    localStorage 键，也不写它的账本文件。两者可以分别安装/启用/禁用。
+# ============================================================================
+
+- insert:
+    - id: dsh-naiwa
+      name: dsh-naiwa
+      config: {}
